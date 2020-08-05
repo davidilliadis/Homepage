@@ -1,0 +1,211 @@
+
+
+.home-logo {
+  width: 140px;
+  margin-top: 10px;
+}
+
+.container-fluid {
+ 
+  background-color: rgb(154, 108, 194);  
+  background-color: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+  background-color: linear-gradient(to right, #4A00E0, #8E2DE2); 
+  height: 100%;
+  
+}
+
+
+
+
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+  
+    
+
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #8E2DE2;  
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    padding: -10px 0;
+    margin-left: -15px;
+
+    
+    
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+   margin-bottom: 20px;
+ 
+}
+
+
+
+
+
+.wrapper .sidebar ul li {
+    padding: 7px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+   
+    
+    
+
+.wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+    text-decoration: none;
+   
+}
+
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+}
+
+.wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.wrapper .sidebar .social_media a {
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; 
+}
+
+
+
+
+
+
+  
+
+    
+    
+
+/* dokimi gia neo grid */
+
+.container-david {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin: 70 70px;
+  
+  
+  
+}
+.row {
+ 
+  background-color: ghostwhite; 
+  border: solid rgba(130,125,253,1) 1px;
+  border-radius: 10px;
+  margin-left: 185px;
+  justify-content: space-around;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  
+}
+  
+
+  
+
+.thanasis {
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  justify-content: space-around;
+  margin: 10px;
+ 
+  
+}
+  
+ 
+ 
+ 
+.thanasis p {
+  color: white;
+
+  
+  
+}
+
+.centered{
+  position: relative;
+  display: inline-block; 
+  width: 300px;
+  
+}
+
+.centered .text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  
+  text-align: center;
+  top: 40%;
+  background: black;
+  color: white;
+  width: 100%;
+  opacity: 0.5;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: -73px;
+  font-size: 20px;
+  
+  
+}
+
+
+
+
+
+  
+ 
+ 
+
+  
+  
+
+
+  
+
+
+
+
+
+  
+
+  
+
+
+
